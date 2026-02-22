@@ -21,7 +21,7 @@ let package = Package(
             name: "DataSample",
             resources: [
                 // `.copy` leaves files untouched (no asset compilation).
-                .copy("Resources/Data/Sample") // <-- raw test data
+                .copy("Resources/Data") // <-- raw test data
             ]
             
         )
